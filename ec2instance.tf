@@ -7,3 +7,10 @@ resource "aws_instance" "web" {
     Name = "matha9"
   }
 }
+
+
+
+provider "aws" {
+  region     = "us-east-2"
+  
+}
